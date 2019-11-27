@@ -1,0 +1,161 @@
+{
+  "id": "1459b80c-de20-4850-85f9-446b4dd726c1",
+  "version": "2.0",
+  "name": "portal",
+  "url": "https://transparencia.criciuma.sc.gov.br/",
+  "tests": [{
+    "id": "793bbeb8-8fd7-4269-b09a-271206f4bab7",
+    "name": "ok",
+    "commands": [{
+      "id": "659f3b37-1c73-4015-a8a7-af0d42aaed1e",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27ab578c-b0ba-4043-b755-bc2ed62fb651",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6922fc23-c3ca-49e8-b2f8-e615b40fedbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(1) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(1) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01991f15-d243-4efc-88cc-ece20e109f2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labelreceitas0 .col-xs-7",
+      "targets": [
+        ["css=#labelreceitas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labelreceitas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60112716-3cd9-47a6-8a8f-ddb3513c475a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "e315fff6-467e-443d-b218-8e6be18dbf1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ece9e5e-4b6c-414b-95a0-60e492681a80",
+      "comment": "",
+      "command": "select",
+      "target": "id=mainForm:entidade",
+      "targets": [],
+      "value": "label=FUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA"
+    }, {
+      "id": "431e4ffe-41ee-4d3b-8a10-f012d71e341b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62cc468d-8002-4051-bb5e-995b4569d970",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ab7059-1dda-486f-bfa6-ba19d8581248",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_export_0",
+      "targets": [
+        ["id=btn_export_0", "id"],
+        ["name=mainForm:j_id_jsp_1460878676_0pc5", "name"],
+        ["css=#btn_export_0", "css:finder"],
+        ["xpath=//input[@id='btn_export_0']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listReceitas']/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dba7305-0424-4003-8a5f-a544f6dafe05",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:j_id_jsp_1594263850_2pc9",
+      "targets": [
+        ["id=mainForm:j_id_jsp_1594263850_2pc9", "id"],
+        ["name=mainForm:j_id_jsp_1594263850_2pc9", "name"],
+        ["css=#mainForm\\3Aj_id_jsp_1594263850_2pc9", "css:finder"],
+        ["xpath=//input[@id='mainForm:j_id_jsp_1594263850_2pc9']", "xpath:attributes"],
+        ["xpath=//span[@id='doExport']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9800299e-b40a-4ac4-82ae-dcdf00b3cd0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=download",
+      "targets": [
+        ["linkText=download", "linkText"],
+        ["css=#exportDownload > a", "css:finder"],
+        ["xpath=//a[contains(text(),'download')]", "xpath:link"],
+        ["xpath=//a[@onclick='closePopup();']", "xpath:attributes"],
+        ["xpath=//span[@id='exportDownload']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-gov.betha.com.br/transparencia/01037-029/downloadExportacao?file=Receitas.pdf')]", "xpath:href"],
+        ["xpath=//span[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4fafc0b3-6767-4475-bed0-c104de952f03",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["793bbeb8-8fd7-4269-b09a-271206f4bab7"]
+  }],
+  "urls": ["https://transparencia.criciuma.sc.gov.br/"],
+  "plugins": []
+}
