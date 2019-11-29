@@ -1,0 +1,2070 @@
+{
+  "id": "828f6904-a7c7-4c57-a8c3-c238c84050a7",
+  "version": "2.0",
+  "name": "projetoTest",
+  "url": "https://transparencia.criciuma.sc.gov.br/",
+  "tests": [{
+    "id": "7da649af-9733-49d7-8dc7-13e2a5368c11",
+    "name": "1- Teste normal",
+    "commands": [{
+      "id": "b68c3f3c-e6ba-4ce2-ad44-298697f3b985",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58cd6867-f6ac-49e9-ba37-3f1d6cae7361",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d41afd58-9817-47d9-8d86-80998ca90298",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95498105-b825-4356-916e-ad6be98ce9e1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "276bfe0a-75f9-4b36-b9b8-03118a4ef6fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .serv",
+      "targets": [
+        ["css=#labeldespesas0 .serv", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06eaa319-9989-4094-8dc4-acb16488cc61",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#labeldespesas0 .serv",
+      "targets": [
+        ["css=#labeldespesas0 .serv", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "387f264c-5bc3-4c39-985b-7ad06b164284",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3582067-122c-4c0f-946c-d4b8d23e1894",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d42bedde-4d43-42e4-b302-10b26178f140",
+      "comment": "",
+      "command": "select",
+      "target": "id=mainForm:entidade",
+      "targets": [],
+      "value": "label=FUNDAÇÃO CULTURAL DE CRICIÚMA"
+    }, {
+      "id": "78d184ab-31a9-4bec-8f43-c816fc65ae33",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4efcf7c6-3253-4e7e-8414-b07fa33b7176",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c85c280-4cb0-403f-ac7d-dd6368be1207",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b48b204-cce6-41b4-85f2-d31c384c0870",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a97aa4bb-300f-4219-990d-4338b55eac57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.export",
+      "targets": [
+        ["css=.export", "css:finder"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f16cd8-57c4-4802-9c57-aeacad60b689",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_export_0",
+      "targets": [
+        ["id=btn_export_0", "id"],
+        ["name=mainForm:j_id_jsp_1460878676_0pc5", "name"],
+        ["css=#btn_export_0", "css:finder"],
+        ["xpath=//input[@id='btn_export_0']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce835b5f-e4e2-44e4-8a4f-e647353b48cf",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=btn_export_0",
+      "targets": [
+        ["id=btn_export_0", "id"],
+        ["name=mainForm:j_id_jsp_1460878676_0pc5", "name"],
+        ["css=#btn_export_0", "css:finder"],
+        ["xpath=//input[@id='btn_export_0']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]/input", "xpath:position"]
+      ],
+      "value": "73.171875,9.375"
+    }]
+  }, {
+    "id": "f436fb0a-172b-4725-a8e5-14cec54d0264",
+    "name": "2 - Teste normal",
+    "commands": [{
+      "id": "510c2aae-1f3b-4fc4-bfd6-bb4ad4bc4a8b",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e98b842b-c308-4271-bbb7-947d4aefdde9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56425a36-5fc2-493f-8dd4-b2a063472d4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c3192de-7088-4b53-aef6-e1b901d564ac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75596f47-84db-460a-b016-b1a44076c081",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "071099ac-237b-43c5-acfc-d1eb057ff110",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "a43ac20c-ef86-4dec-8240-97abc66286fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da40736a-6ecb-4aab-8070-009bc8a451f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "celesc"
+    }, {
+      "id": "ac6f279a-2293-4f3a-ad22-105216cd31a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "734d3233-00c9-44bf-9791-e0b757d89483",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "db600390-e7d2-4d9b-a997-b1d0ef6af813",
+    "name": "3 - Teste normal",
+    "commands": [{
+      "id": "bb63c05a-02ab-4960-bceb-e727ca4b5da9",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d61a6cd8-97d7-4884-a08f-c358044d360e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87592ac4-68e4-4cce-8f51-115bb100d57d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.far:nth-child(2)",
+      "targets": [
+        ["css=.far:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0fd1f97-5f45-445f-9196-06d5d77ed1c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .serv",
+      "targets": [
+        ["css=#labeldespesas0 .serv", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23d9c0a8-a7e8-4dd4-a0dc-5a546b822388",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "c211d563-264f-47a1-940d-e38444cde1d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc662351-3820-4bf0-ab05-6fef91e39c4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "satc"
+    }, {
+      "id": "ca409d75-f554-4fab-8338-7e0fefcb9116",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9182fe-4996-4c7d-a8e7-bed91a0278db",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c19e3df2-5082-499c-9952-ed57c33cec3a",
+    "name": "4 - Teste nomes",
+    "commands": [{
+      "id": "56cb6ece-b16f-447f-a18f-cfbc6af65204",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f8ef9b2-ab5a-4c8d-a30d-9f1e450b7663",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fcbffd5-c21c-4502-928c-3c5332642fa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.far:nth-child(2)",
+      "targets": [
+        ["css=.far:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d551476c-d0c8-4730-8b01-5e8aa8db7c71",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "491f2fd0-373e-494f-8f19-64a6a233ba4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .serv",
+      "targets": [
+        ["css=#labeldespesas0 .serv", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1960b311-ca31-412c-8ed1-99e22ebc35f8",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b0adb9b-baca-4c74-86a3-c0ddb42b803b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8397ee8-ab97-487e-9882-ab88e8bd0106",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "Christian Warmling Medeiros"
+    }, {
+      "id": "bca855cf-590c-46c4-8f6d-03a5860bdf2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "69f4c38a-461c-4ddf-9786-70a38b95337f",
+    "name": "5- Teste nomes",
+    "commands": [{
+      "id": "0f420e27-0d34-4304-b306-f5c24d9d9dd8",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e4d6792-68d3-4a18-b9a5-fb6e601a18a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8f4daf4-d9bd-4ab2-8365-8d305c30c43f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af94cbd-eb13-4d53-8bdb-c44de52b0a24",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82edab11-8f8f-47e3-ae67-ecd0ee537f5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb5aca9-ee92-4824-81d3-1dbe10b9bbc2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e4fe310-4cf3-4ca5-b501-59ea9b0f6ee1",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e0c386e-c856-4f65-99d7-8adfb2605da9",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "psico"
+    }, {
+      "id": "7b26c244-194a-498a-856d-cfe36bcf1f0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cad3ba8-263b-4d26-b780-831505030da6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b47d4859-546e-446b-8d36-43c1a9b0c469",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b6484e-79e0-4e16-92ce-7c9f7a4e63ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7437558c-c165-405e-a550-f89b215af94d",
+    "name": "13 - Teste select",
+    "commands": [{
+      "id": "6dc9172c-9f33-4d95-83c7-2cda28777965",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5fe34ad-b3a1-49f0-bbc2-218b5b1575f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e4dc58d-6a34-4752-b417-e74ad892405f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36744864-c757-4a84-b246-9a18d7264c2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e95b329c-aa7d-4d6a-9efc-6c3ca5e99eb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "895bbd96-78ae-485e-a6f1-17df1745916d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e81b8cc-f656-4c45-8b44-de0485915359",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d195aab-198d-46d9-a656-45c74691839a",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "'; SELECT * from information_schema.tables'"
+    }, {
+      "id": "e9cef1e5-6721-43d3-9912-c3bdb6eef0d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03dd4f5d-09aa-42ef-86d2-2a7ff0a3e2f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "82cdecaa-3da6-41b0-bc37-e12c7350e3d3",
+    "name": "11 - Teste botão exportar",
+    "commands": [{
+      "id": "6b54a319-45e0-4e2f-94b0-bfe0b0d8b2f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb5da399-c22f-4734-b26b-a378698c80fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68f505c5-d308-4e37-b537-e37d85e6d175",
+      "comment": "",
+      "command": "click",
+      "target": "css=.far:nth-child(2)",
+      "targets": [
+        ["css=.far:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09994569-9331-4186-87dd-941c77bb39a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ce1296e-b0f3-4df6-8b6f-d5b91d07d19c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .serv",
+      "targets": [
+        ["css=#labeldespesas0 .serv", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c018c78a-3ff2-4834-8b91-6a522a6e96c0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "301e22a8-d0fc-4901-aa89-5a8f07a60818",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cf7585c-6ff7-40e9-b712-bef559c6f72d",
+      "comment": "",
+      "command": "select",
+      "target": "id=mainForm:entidade",
+      "targets": [],
+      "value": "label=FUNDAÇÃO CULTURAL DE CRICIÚMA"
+    }, {
+      "id": "6798333b-2a86-4e0f-a0bb-0eb4cd161c0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3906206e-5fc7-463a-a645-ddf06384ba05",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83de8cfe-6420-4ead-90db-42c1e0fe6da6",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "caixa"
+    }, {
+      "id": "23659094-6ddb-4079-9c76-952a7b1c243f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e0f790a-55ef-4e14-9d1b-e32ba0a01e7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_export_0",
+      "targets": [
+        ["id=btn_export_0", "id"],
+        ["name=mainForm:j_id_jsp_1460878676_0pc5", "name"],
+        ["css=#btn_export_0", "css:finder"],
+        ["xpath=//input[@id='btn_export_0']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c6bba8d1-cc77-4b5c-9f93-2085f36dd429",
+    "name": "12 - Teste botão exportar erro",
+    "commands": [{
+      "id": "9faaf9a4-e047-4747-aa53-e988235bfdb9",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48bb0372-524d-4d69-9fc8-5ac15245e6d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04441fc1-5c0e-425a-b2d6-bf8e8aa1f209",
+      "comment": "",
+      "command": "click",
+      "target": "css=.far:nth-child(2)",
+      "targets": [
+        ["css=.far:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6251202-ee45-4a40-84b5-b8d92ee250f5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d90feb89-bae7-43e1-a230-e5fcd8bb3127",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .serv",
+      "targets": [
+        ["css=#labeldespesas0 .serv", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b55a6a-8436-4088-86ee-9d477b7f2294",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "273e5cb5-4247-447d-ada3-8562cbe894f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da395002-e02d-45fa-8ba1-ede75e6e441e",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:entidade",
+      "targets": [
+        ["id=mainForm:entidade", "id"],
+        ["name=mainForm:entidade", "name"],
+        ["css=#mainForm\\3A entidade", "css:finder"],
+        ["xpath=//select[@id='mainForm:entidade']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-selects']/div/div/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Todas\nAUTARQUIA DE SEGURANÇA, TRÂNSITO E TRANSPORTE DE CRICIÚMA -\nCÂMARA MUNICIPAL DE CRICIÚMA\nFUNDAÇÃO CULTURAL DE CRICIÚMA\nFUNDAÇÃO DO MEIO AMBIENTE DE CRICIÚMA - FAMCRI\nFUNDO MUNICIPAL DA CRIANÇA/ADOLESCENTE DE CRICIÚMA\nFUNDO MUNICIPAL DA CULTURA DE CRICIÚMA\nFUNDO MUNICIPAL DE ÁGUA E ESGOTO DE CRICIÚMA\nFUNDO MUNICIPAL DE ASSIST. SOCIAL DE CRICIÚMA\nFUNDO MUNICIPAL DE ESPORTES DE CRICIÚMA\nFUNDO MUNICIPAL DE HABITAÇÃO INTERESSE SOCIAL CRICIÚMA\nFUNDO MUNICIPAL DE INCENTIVO CULTURAL DE CRICIÚMA\nFUNDO MUNICIPAL DE SAÚDE DE CRICIÚMA\nFUNDO MUNICIPAL DO MEIO AMBIENTE DE CRICIÚMA\nFUNDO MUNICIPAL ROT. HABIT. CRICIÚMA\nFUNDO MUNICIPAL SANEAMENTO BÁSICO DE CRICIÚMA-FUNSAB\nHOSPITAL MUNICIPAL MATERNO INFANTIL SANTA CATARINA\nINSTITUTO DE PREVIDÊNCIA SOCIAL SERV. PÚB. CRICIÚMA\nPREFEITURA MUNICIPAL DE CRICIÚMA\nUNIVERSIDADE EXTREMO SUL CATARINENSE - UNESC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "394c35d6-d2c9-4653-8e20-8bfb37d46c29",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7de1a2d9-7e62-4971-8217-63a186f1205d",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "caixa"
+    }, {
+      "id": "1e8180c4-d0d1-4940-b669-9ada95d5acd6",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcef8db8-a3cc-48b0-ac05-1233f6c1f4e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_export_0",
+      "targets": [
+        ["id=btn_export_0", "id"],
+        ["name=mainForm:j_id_jsp_1460878676_0pc5", "name"],
+        ["css=#btn_export_0", "css:finder"],
+        ["xpath=//input[@id='btn_export_0']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fea713d0-ef12-4efc-9679-e003ec8a37d2",
+    "name": "6 - Teste cpf",
+    "commands": [{
+      "id": "66dadfd1-7032-4dbf-9e64-f2615ed938c9",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4882ac81-da55-4ed1-94bb-af8373bd7b7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d397fd8-3466-4033-9b96-7f74166b695b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5830a12-3c46-460e-8784-3ca623de4347",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc122f69-93ac-4a76-859b-3c9b5cdf4027",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bea5d1ca-c6ab-4858-b2f4-ee7f6bd6cb6b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "33380834-311d-477e-bd67-0eec4bd79005",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af315d63-f209-483c-8de5-ba1638c28f5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "06474797967"
+    }, {
+      "id": "651db571-536c-458c-b5a7-669afcd09efe",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d33a5702-eee9-4019-8343-b375581c6a5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ae9fa6b2-fbe6-4875-a060-4142376ed798",
+    "name": "9 - Teste inscrição",
+    "commands": [{
+      "id": "c4165a48-d8bf-4306-8656-4b6af9cde39c",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00c1f53d-9ee1-4a9f-99f4-3ae3241819ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4e1ce7c-681e-4bd9-a464-27f94bcaa1f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f4dc1e5-43eb-4d5b-b79d-6bec3de79325",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73271c52-7a61-4c1e-b41c-58edc5b03b4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .serv",
+      "targets": [
+        ["css=#labeldespesas0 .serv", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400f6b83-9efe-4e4b-ab5a-0c0070029467",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "270f6a93-2b42-4693-8ab3-54bf50ad002f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d53fbb3-27b3-4f92-9470-b9640d21ad6b",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "72ebb485-d9e3-4f1a-b87e-4d84a2916107",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "76d5f96f-07b5-490e-a303-26a46c14e939",
+    "name": "7 - Teste CNPJ",
+    "commands": [{
+      "id": "609f46eb-9690-4c66-8480-bb69f4722396",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28498b55-3f75-4381-8ee2-8d28726690c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead34454-cb24-4cb4-b55e-0811c384ceef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6453ef01-abc1-4d0f-8d8c-77b642057b3b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22018b7e-0d18-474c-8b71-d8533050ca21",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ce4321-7e10-4813-be25-d761fe8ac2f2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac52899-1382-4492-b518-d806599cd97c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e426bd6-e366-442c-91f6-133c500c206e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "83649830000171"
+    }, {
+      "id": "1631182c-e90f-4446-bac6-8f672de8c6a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f72703c8-ac12-40f3-9fdc-ff60c2c4aed8",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b80ce1af-6a2c-4975-99dc-71c68cf253b6",
+    "name": "8 - Teste CNPJ",
+    "commands": [{
+      "id": "f1b4d76c-fa3c-4ea1-9672-99e645bf3fab",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2546d554-e6de-408b-a3b1-ed7b70686795",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc738fb-33b0-4241-9386-8dfb8d8b8eb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c6976f4-8e99-4330-bb33-8cfbf1ff2aeb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7255d8b3-7c64-4e55-a206-7e83258b1782",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca14721-aac3-4165-88b7-5ec0d08ddf85",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "272fa6bd-8d57-42d9-ace8-548de2f26467",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41c56a0f-ad72-4811-b8fc-59d3c4579c8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "83.649.830/0001-71"
+    }, {
+      "id": "b385a64e-0f51-4d91-a4eb-9d556d7335f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5e18fb-228e-463d-bef5-766c14eddc01",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ea44161e-7035-49b9-a449-7314a68c79ba",
+    "name": "10- Teste inscrição",
+    "commands": [{
+      "id": "58255902-b51d-4e7a-a89e-4958ec562409",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a4ca035-ce9f-4226-95bc-9d9f34beb71c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4a5915d-529b-4400-9fa8-4e199fd01a90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98ce3df8-e148-43fc-b398-af14bf685503",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb9efe8e-c9a5-4177-a26c-c94873a69b87",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e0e115e-018a-4e17-82e1-3229728d867a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "26c047f0-5965-4d7c-92b0-484a4ab8a874",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c57421e0-0f03-49c0-a08d-c60638e9be6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "1245685"
+    }, {
+      "id": "81bf5468-04e7-47e1-9499-c39e60908979",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b09f6346-19b3-4dc8-8515-65cf164dd5ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4448ed95-a5c9-4ca8-b121-bb61a187ceca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ab40529-9754-4d81-97df-430894a3a64a",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "47368c09-a014-4b3f-8bee-7929aa7da822",
+    "name": "16 - Teste select inscrição",
+    "commands": [{
+      "id": "c9b2fa87-eb7e-43a7-8e51-8ff724855d94",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d111eeb6-b2fd-4e4b-91ca-cf1c2904531f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6601898a-a2b5-4c96-aade-de0049c75ffd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f46f90f9-b302-48d0-bc93-8ece2957246f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7efcb18-612b-482b-889d-a0e980b57220",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b36803a-c68c-4aca-b56a-2e7906281bf9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "7783ae19-acea-48de-9f49-a06eecc4cba8",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0aeac59-3b03-4750-9981-0b4904478ad2",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "'; SELECT *'"
+    }, {
+      "id": "e2dd5d32-49ba-4a25-95b9-c2ca5cf301a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e44e09d-21c1-4e3c-ae5d-d0c90da42501",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8ddc3560-9c53-4065-a1b6-e276d6fa5f58",
+    "name": "14 - Teste select",
+    "commands": [{
+      "id": "36378aa8-7dea-4fd9-96b0-1f100ccbb0b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c230bbda-c386-4a02-ac03-2399de64ee7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "765c44ba-b7db-4aad-b88b-f31506e953e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9c3e893-6fa0-4df5-b74a-aa61af399e74",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8942ac8d-13c3-4d4e-b20c-76575dcf9f3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bdc9cb6-e2cf-4dd1-99e7-8590b834e59d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "90d6f012-c804-4207-a87a-893bd062dfa2",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4440982-2d2c-4bc0-a64b-a8756f89eab7",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "'; SELECT *'"
+    }, {
+      "id": "1e1ea6dd-ace1-48e5-a73e-62863517aa2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb3e6ddd-d4ab-4bdc-83ff-aa02c3a03150",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "31de460e-3d6f-420e-86fb-29dbb08d915a",
+    "name": "15 - Teste select",
+    "commands": [{
+      "id": "a372b09d-335d-46bc-81b0-7906c38ff182",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b270bd9a-2733-4ead-8ac5-ef5a19ffb230",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2e63daa-a3ba-448d-843d-4064eef8d1c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eb4519c-745d-48f7-a76d-aa5c6793936e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98f8d15a-6171-40f6-b69e-28ef3aa868e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80c3edb8-50d9-4644-be94-a6f9cf86d8a3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "4452b657-ebee-489f-85df-fa1c09e6b4ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31117dcf-1e24-4089-a787-fc3914312e6e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:nomeFavorecido",
+      "targets": [
+        ["id=mainForm:nomeFavorecido", "id"],
+        ["name=mainForm:nomeFavorecido", "name"],
+        ["css=#mainForm\\3AnomeFavorecido", "css:finder"],
+        ["xpath=//input[@id='mainForm:nomeFavorecido']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[3]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span/input", "xpath:position"]
+      ],
+      "value": "SELECT *"
+    }, {
+      "id": "e9579220-2db0-4c71-93c4-c9f9a99e0310",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f530ec3-c3be-4148-91fa-37b0229661db",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f4cc2d02-beb3-4f99-a5a5-99eea510b0c8",
+    "name": "16 - Teste select inscrição (1)",
+    "commands": [{
+      "id": "914bec4d-31bd-46ed-9968-22590505f753",
+      "comment": "",
+      "command": "open",
+      "target": "https://transparencia.criciuma.sc.gov.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ed6e348-fd4d-432f-b57a-0379d9d313a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1116x548",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c836a25-5f8c-4c90-9305-5abcabfa108a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-3:nth-child(2) > .lalaland",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) > .lalaland", "css:finder"],
+        ["xpath=//div[@id='box_1']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d053aa70-7978-453c-81fb-0c60102b0390",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f664109-b81d-484d-84d2-99baae66e970",
+      "comment": "",
+      "command": "click",
+      "target": "css=#labeldespesas0 .col-xs-7",
+      "targets": [
+        ["css=#labeldespesas0 .col-xs-7", "css:finder"],
+        ["xpath=//label[@id='labeldespesas0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "568dde13-deb0-4eec-9b46-444139b5e262",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "64c86c52-1f40-4ffe-ab9d-4a2d192d0ba9",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fb3c381-a7c1-4e84-a282-41879fc2b327",
+      "comment": "",
+      "command": "type",
+      "target": "id=mainForm:inscricao",
+      "targets": [
+        ["id=mainForm:inscricao", "id"],
+        ["name=mainForm:inscricao", "name"],
+        ["css=#mainForm\\3Ainscricao", "css:finder"],
+        ["xpath=//input[@id='mainForm:inscricao']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:j_id_jsp_1069525720_11']/div[2]/div[2]/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "SELECT *"
+    }, {
+      "id": "2d9ce263-493f-4d63-8853-ef420c80b4e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainForm:consultar",
+      "targets": [
+        ["id=mainForm:consultar", "id"],
+        ["name=mainForm:consultar", "name"],
+        ["css=#mainForm\\3A consultar", "css:finder"],
+        ["xpath=//input[@id='mainForm:consultar']", "xpath:attributes"],
+        ["xpath=//span[@id='mainForm:g-hideFields']/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3773bcc-ca7b-4a5c-934f-152cfe611e80",
+      "comment": "",
+      "command": "click",
+      "target": "id=imprimir",
+      "targets": [
+        ["id=imprimir", "id"],
+        ["css=#imprimir", "css:finder"],
+        ["xpath=//input[@id='imprimir']", "xpath:attributes"],
+        ["xpath=//div[@id='mainForm:g-listGastos']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8d060780-2f0c-4039-821c-f34845431c6a",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7da649af-9733-49d7-8dc7-13e2a5368c11"]
+  }],
+  "urls": ["https://transparencia.criciuma.sc.gov.br/"],
+  "plugins": []
+}
