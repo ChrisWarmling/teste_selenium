@@ -2,3 +2,5 @@ O arquivo "portal.side" deve ser aberto no Selenium IDE
 No terminal faça o comando "npm install"
 O arquivo "index.js" deve ser iniciado pelo terminal com o comando "node index" (necessário ter o node instalado na máquina)
 O arquivo "geckodriver.exe" é necessário para que abra o firefox em modo controlado por bot
+
+teste
